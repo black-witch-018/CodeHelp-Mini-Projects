@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+    color: hotpink;
+}
+h1, h2, strong, figcaption{
+    color:tomato;
+}
+img{
+    border:2px solid tomato;
+}
+a{
+    color:rosybrown;
+    text-decoration: none;
+}
+a:hover{
+    color:coral;
+}
