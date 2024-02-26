@@ -1,0 +1,50 @@
+img{
+    width:400px;
+    display: block;
+    border-radius: 10px;
+    margin:10px;
+}
+
+p{
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    width: 400px;
+    color: grey;
+}
+
+#outerbox{
+    display: inline-block;
+    /* border: 1px solid rgba(128, 128, 128, 0.646); */
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.646);
+    border-radius: 10px;
+}
+
+.inner{
+    margin: 10px 6em;
+}
+
+.purple{
+    color: rgb(102, 116, 204);
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: bold;
+}
+
+strike{
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: bold;
+    color: grey;
+}
+
+.green{
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: bold;
+    color:white;
+    background-color: rgb(29, 209, 161);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
