@@ -9,3 +9,11 @@
     overflow-x:hidden;
     overflow-y:auto;
 }
+.container{
+    display:flex;
+    margin:10% auto;
+    width:50%;
+    height:50%;
+    overflow:hidden;
+    border-radius: 10px;
+}
