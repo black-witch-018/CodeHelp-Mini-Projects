@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,12 +9,81 @@
     height:100vh;
     overflow-x:hidden;
     overflow-y:auto;
+    background-color: hsl(30, 38%, 92%);
 }
 .container{
     display:flex;
-    margin:10% auto;
-    width:50%;
-    height:50%;
+    height:400px;
     overflow:hidden;
-    border-radius: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin:5% auto;
+    width:750px;
+    gap:2em;
+}
+.img{
+    width:100%;
+    /* overflow:hidden; */
+    height:100%;
+    /* background-color: #ffffff; */
+}
+.img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.content{
+    height:100%;
+    padding:2em 0;
+}
+.coffee{
+    font-family: 'Montserrat';
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    color:grey;
+}
+.head{
+    font-size: 2em;
+    font-family:'Fraunces';
+    width:70%;
+    margin:0.7em 0em;
+}
+.para{
+    font-family: 'Montserrat';
+    color:grey;
+    margin:0.7em 1em 0.7em 0em;
+    font-weight: 500;
+}
+.price{
+    color:hsl(158, 36%, 37%);
+    font-size:2rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin-right:0.5em;
+}
+.strike{
+    font-size:1em;
+    color:grey;
+    text-decoration: line-through;
+}
+.btn{
+    display:block;
+    color:#ffffff;
+    background-color: hsl(158, 36%, 37%);
+    width:90%;
+    padding:15px;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top:1.5em;
+}
+.btn-text{
+    font-size: 1rem;
+    font-weight: 100;
+    margin:0.5em
+}
+.btn:hover{
+    background-color: hsl(156, 24%, 24%);
+
 }
